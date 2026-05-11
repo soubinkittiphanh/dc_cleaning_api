@@ -43,20 +43,21 @@ const getImpactStats = async () => {
             where: { status: 'completed' }
         });
 
-        const totalImpact = await db.CleaningEvent.findOne({
-            where: { status: 'completed' },
-            attributes: [
-                [db.Sequelize.fn('SUM', db.Sequelize.col('totalBags')), 'totalBags'],
-                [db.Sequelize.fn('SUM', db.Sequelize.col('totalKilos')), 'totalTrashWeight']
-            ],
-            raw: true
-        });
+        const totalBags = await db.CleaningEvent.sum('totalBags', {
+            where: { status: 'completed' }
+        }) || 0;
+
+        const totalTrashWeight = await db.CleaningEvent.sum('totalKilos', {
+            where: { status: 'completed' }
+        }) || 0;
+
+        logger.info(`[STATS] Volunteers: ${totalVolunteers}, Events: ${totalCompletedEvents}, Bags: ${totalBags}, Weight: ${totalTrashWeight}`);
 
         return {
             totalVolunteers,
             totalCompletedEvents,
-            totalBags: parseInt(totalImpact.totalBags || 0),
-            totalTrashWeight: parseFloat(totalImpact.totalTrashWeight || 0).toFixed(2)
+            totalBags: parseInt(totalBags),
+            totalTrashWeight: parseFloat(totalTrashWeight).toFixed(2)
         };
     } catch (error) {
         logger.error(`Error fetching impact stats: ${error}`);
