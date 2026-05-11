@@ -1,0 +1,881 @@
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:08:06.644Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:08:06.649Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:08:06.650Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:08:06.651Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:08:06.653Z","username":"johndoe"}
+{"level":"info","message":"Cleaning API is up on port 8888","timestamp":"2026-05-02T15:08:07.465Z"}
+{"level":"error","message":"Error syncing database: (conn=308, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:08:23.879Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:08:29.369Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:08:29.382Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:08:29.385Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:08:29.388Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:08:29.393Z","username":"johndoe"}
+{"level":"info","message":"Cleaning API is up on port 4001","timestamp":"2026-05-02T15:08:30.663Z"}
+{"level":"error","message":"Error syncing database: (conn=310, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:08:32.072Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:08:52.425Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:08:52.434Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:08:52.436Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:08:52.437Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:08:52.442Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:08:53.068Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:08:53.519Z"}
+{"level":"error","message":"Error syncing database: (conn=314, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:08:54.615Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:10:14.548Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:10:14.560Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:10:14.562Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:10:14.563Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:10:14.565Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:10:15.024Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:10:15.386Z"}
+{"level":"error","message":"Error syncing database: (conn=317, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:10:16.560Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:10:38.544Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:10:38.549Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:10:38.551Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:10:38.552Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:10:38.555Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:10:39.029Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:10:39.382Z"}
+{"level":"error","message":"Error syncing database: (conn=320, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:10:40.573Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:10:57.771Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:10:57.776Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:10:57.778Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:10:57.779Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:10:57.781Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:10:58.237Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:10:58.562Z"}
+{"level":"error","message":"Error syncing database: (conn=324, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:10:59.921Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:11:09.257Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:11:09.261Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:11:09.263Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:11:09.263Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:11:09.265Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:11:09.678Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:11:10.000Z"}
+{"level":"error","message":"Error syncing database: (conn=327, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:11:11.244Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:11:15.191Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:11:15.196Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:11:15.197Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:11:15.198Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:11:15.201Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:11:15.562Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:11:15.881Z"}
+{"level":"error","message":"Error syncing database: (conn=330, no: 1091, SQLState: 42000) Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists\nsql: ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_DROP_FIELD_OR_KEY","errno":1091,"fatal":false,"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","sqlState":"42000","text":"Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists"},"parameters":{},"parent":{"code":"ER_CANT_DROP_FIELD_OR_KEY","errno":1091,"fatal":false,"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","sqlState":"42000","text":"Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists"},"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Promise.all (index 0)\n    at async MySQLQueryInterface.removeColumn (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mysql/query-interface.js:32:7)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:967:13)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:11:19.589Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:12:24.166Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:12:24.170Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:12:24.171Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:12:24.171Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:12:24.173Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:12:24.603Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:12:24.902Z"}
+{"level":"error","message":"Error syncing database: (conn=341, no: 1091, SQLState: 42000) Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists\nsql: ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_DROP_FIELD_OR_KEY","errno":1091,"fatal":false,"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","sqlState":"42000","text":"Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists"},"parameters":{},"parent":{"code":"ER_CANT_DROP_FIELD_OR_KEY","errno":1091,"fatal":false,"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","sqlState":"42000","text":"Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists"},"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Promise.all (index 0)\n    at async MySQLQueryInterface.removeColumn (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mysql/query-interface.js:32:7)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:967:13)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:12:27.267Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:12:54.107Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:12:54.114Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:12:54.115Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:12:54.116Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:12:54.118Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:12:54.644Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:12:54.992Z"}
+{"level":"error","message":"Error syncing database: (conn=354, no: 1091, SQLState: 42000) Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists\nsql: ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_DROP_FIELD_OR_KEY","errno":1091,"fatal":false,"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","sqlState":"42000","text":"Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists"},"parameters":{},"parent":{"code":"ER_CANT_DROP_FIELD_OR_KEY","errno":1091,"fatal":false,"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","sqlState":"42000","text":"Can't DROP FOREIGN KEY `transactionEntry_ibfk_228`; check that it exists"},"sql":"ALTER TABLE `user` DROP FOREIGN KEY `transactionEntry_ibfk_228`;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Promise.all (index 0)\n    at async MySQLQueryInterface.removeColumn (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mysql/query-interface.js:32:7)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:967:13)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:12:56.773Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:13:23.377Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:13:23.382Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:13:23.384Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:13:23.385Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:13:23.389Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:13:23.913Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:13:24.300Z"}
+{"level":"error","message":"Error syncing database: (conn=367, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:13:25.411Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:13:33.988Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:13:33.993Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:13:33.995Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:13:33.997Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:13:33.999Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:13:34.565Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:13:34.964Z"}
+{"level":"error","message":"Error syncing database: (conn=370, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:13:36.492Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:14:22.919Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:14:22.923Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:14:22.924Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:14:22.924Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:14:22.926Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:14:23.306Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:14:23.604Z"}
+{"level":"error","message":"Error syncing database: (conn=374, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:14:24.704Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:14:33.306Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:14:33.314Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:14:33.318Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:14:33.319Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:14:33.323Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:14:33.746Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:14:34.105Z"}
+{"level":"error","message":"Error syncing database: (conn=378, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:14:35.285Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:14:46.078Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:14:46.088Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:14:46.091Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:14:46.091Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:14:46.095Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:14:46.566Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:14:46.917Z"}
+{"level":"error","message":"Error syncing database: (conn=380, no: 1005, SQLState: HY000) Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")\nsql: ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"parameters":{},"parent":{"code":"ER_CANT_CREATE_TABLE","errno":1005,"fatal":false,"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","sqlState":"HY000","text":"Can't create table `dcommerce_demo`.`CleaningEventPhoto` (errno: 150 \"Foreign key constraint is incorrectly formed\")"},"sql":"ALTER TABLE `CleaningEventPhoto` ADD FOREIGN KEY (`CleaningEventId`) REFERENCES `CleaningEvent` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-02T15:14:48.007Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:16:10.253Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:16:10.257Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:16:10.258Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:16:10.259Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:16:10.260Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:16:10.635Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:16:10.948Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-02T15:16:12.764Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-02T15:18:02.426Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-02T15:18:02.430Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-02T15:18:02.431Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-02T15:18:02.432Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-02T15:18:02.434Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-02T15:18:02.837Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-02T15:18:03.147Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-02T15:18:04.866Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-02T15:49:59.730Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-02T15:58:13.148Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-02T16:05:54.440Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-02T16:06:14.786Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-02T16:25:27.334Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-02T16:41:48.972Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T01:17:04.363Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T01:17:04.368Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T01:17:04.369Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T01:17:04.372Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T01:17:04.376Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T01:17:04.887Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T01:17:05.280Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T01:17:10.132Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T01:17:12.974Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T01:17:12.979Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T01:17:12.981Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T01:17:12.982Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T01:17:12.986Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T01:17:13.407Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T01:17:13.746Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T01:17:16.264Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:23:18.494Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:24:45.794Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:37:55.208Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:38:13.493Z"}
+{"level":"error","message":"Error registering for event: SequelizeUniqueConstraintError: Validation error","timestamp":"2026-05-03T01:42:09.484Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:47:08.403Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:47:26.797Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:52:37.886Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:52:56.277Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:59:28.019Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T01:59:46.555Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:11:29.199Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:11:29.204Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:11:29.205Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:11:29.206Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:11:29.208Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:11:29.622Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:11:30.025Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T02:11:32.059Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:11:35.784Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:11:35.794Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:11:35.796Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:11:35.796Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:11:35.799Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:11:36.640Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:11:37.108Z"}
+{"level":"error","message":"Error syncing database: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1001ms"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1001ms"},"stack":"SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)","timestamp":"2026-05-03T02:11:38.682Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:13:45.110Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:13:45.114Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:13:45.115Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:13:45.116Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:13:45.118Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:13:45.546Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:13:45.912Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T02:13:49.442Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:14:07.014Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:14:07.019Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:14:07.020Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:14:07.020Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:14:07.022Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:14:07.425Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:14:07.759Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T02:14:16.696Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T02:20:16.139Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T02:24:58.683Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T02:47:06.918Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T02:47:25.783Z"}
+{"level":"error","message":"Error creating cleaning event: SequelizeValidationError: notNull Violation: CleaningEvent.estimatedTrashWeight cannot be null,\nnotNull Violation: CleaningEvent.volunteerCount cannot be null,\nnotNull Violation: CleaningEvent.currentVolunteerCount cannot be null","timestamp":"2026-05-03T02:51:18.463Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T02:55:31.009Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T02:58:01.218Z"}
+{"level":"error","message":"Error creating cleaning event: SequelizeUniqueConstraintError: Validation error","timestamp":"2026-05-03T02:58:17.174Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:59:31.042Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:59:31.046Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:59:31.047Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:59:31.048Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:59:31.050Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:59:31.488Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:59:31.944Z"}
+{"level":"error","message":"Error syncing database: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1003ms"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1003ms"},"stack":"SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)","timestamp":"2026-05-03T02:59:33.050Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:59:49.611Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:59:49.615Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:59:49.617Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:59:49.617Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:59:49.619Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:59:50.034Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:59:50.382Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T02:59:52.066Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T02:59:53.126Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T02:59:53.130Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T02:59:53.132Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T02:59:53.133Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T02:59:53.135Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T02:59:53.485Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T02:59:53.796Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T02:59:55.235Z"}
+{"level":"error","message":"Error creating cleaning event: SequelizeUniqueConstraintError: Validation error","timestamp":"2026-05-03T03:00:03.830Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T03:00:40.884Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T03:00:40.888Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T03:00:40.890Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T03:00:40.890Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T03:00:40.892Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T03:00:41.325Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T03:00:41.806Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T03:00:43.592Z"}
+{"level":"info","message":"Cleaning event created: ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-03T03:00:58.388Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T03:05:02.098Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T03:05:02.103Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T03:05:02.104Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T03:05:02.105Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T03:05:02.107Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T03:05:02.435Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T03:05:02.814Z"}
+{"level":"error","message":"Error syncing database: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1003ms"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1003ms"},"stack":"SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n    at async ConnectionManager.getConnection (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:305:26\n    at async MySQLQueryInterface.tableExists (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:102:17)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:939:21)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-03T03:05:03.830Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T03:05:09.047Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T03:05:09.053Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T03:05:09.054Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T03:05:09.054Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T03:05:09.057Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T03:05:09.500Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T03:05:09.868Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T03:05:12.020Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T03:05:58.825Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T03:05:58.829Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T03:05:58.830Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T03:05:58.830Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T03:05:58.832Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T03:05:59.241Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T03:05:59.656Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T03:06:01.594Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-03T03:06:35.558Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-03T03:06:35.563Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-03T03:06:35.564Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-03T03:06:35.564Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-03T03:06:35.566Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-03T03:06:35.979Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-03T03:06:36.341Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-03T03:06:37.814Z"}
+{"level":"error","message":"Error fetching event photos: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-03T04:02:38.446Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T09:59:53.374Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T09:59:53.378Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T09:59:53.379Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T09:59:53.379Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T09:59:53.381Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T09:59:53.771Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T09:59:54.170Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T10:00:26.395Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T10:12:32.145Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T10:13:06.445Z"}
+{"level":"error","message":"Error registering for event: SequelizeForeignKeyConstraintError: (conn=717, no: 1452, SQLState: 23000) Cannot add or update a child row: a foreign key constraint fails (`dcommerce_demo`.`Attendance`, CONSTRAINT `Attendance_ibfk_39` FOREIGN KEY (`userId`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)\nsql: INSERT INTO `Attendance` (`id`,`userId`,`CleaningEventId`,`isVerified`,`notes`,`participationDuration`,`createdAt`,`updateTimestamp`) VALUES (DEFAULT,?,?,?,?,?,?,?); - parameters:[0,'ff637f7c-bd84-4535-b80a-adc2f20ccd55',false,'',0,'2026-05-08 17:16:19.846...]","timestamp":"2026-05-08T10:16:19.924Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T10:18:08.904Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T10:18:08.909Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T10:18:08.911Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T10:18:08.912Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T10:18:08.914Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T10:18:09.341Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T10:18:09.729Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T10:18:15.134Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T10:18:15.138Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T10:18:15.139Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T10:18:15.139Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T10:18:15.141Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T10:18:15.508Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T10:18:15.846Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T10:18:21.371Z"}
+{"level":"info","message":"Registering: userId=null, memberId=null, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T10:19:01.569Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T10:19:01.646Z"}
+{"level":"info","message":"Registering: userId=null, memberId=null, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T10:19:55.298Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T10:19:55.371Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T10:21:38.977Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T10:21:38.981Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T10:21:38.982Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T10:21:38.983Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T10:21:38.985Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T10:21:39.393Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T10:21:39.769Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T10:21:46.108Z"}
+{"level":"error","message":"Error registering for event: Error: Registration failed: You must be a registered member to join events.","timestamp":"2026-05-08T10:23:30.226Z"}
+{"level":"error","message":"Error registering for event: Error: Registration failed: You must be a registered member to join events.","timestamp":"2026-05-08T10:23:59.764Z"}
+{"level":"info","message":"Creating new member:","name":"soubin kittiphanh","timestamp":"2026-05-08T10:28:09.920Z"}
+{"level":"error","message":"Error creating member: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"parameters":["soubin kittiphanh","111111","Volunteer","pending",true,1,"2026-05-08 17:28:09.926","2026-05-08 17:28:09.926"],"sql":"INSERT INTO `member` (`id`,`name`,`password`,`member_class`,`status`,`isActive`,`inputter`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","syscall":"read"},"parameters":["soubin kittiphanh","111111","Volunteer","pending",true,1,"2026-05-08 17:28:09.926","2026-05-08 17:28:09.926"],"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"parameters":["soubin kittiphanh","111111","Volunteer","pending",true,1,"2026-05-08 17:28:09.926","2026-05-08 17:28:09.926"],"sql":"INSERT INTO `member` (`id`,`name`,`password`,`member_class`,`status`,`isActive`,`inputter`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","syscall":"read"},"sql":"INSERT INTO `member` (`id`,`name`,`password`,`member_class`,`status`,`isActive`,`inputter`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.insert (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)\n    at async model.save (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:2490:35)\n    at async Function.create (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1362:12)\n    at async createMember (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:178:31)","timestamp":"2026-05-08T10:28:36.693Z"}
+{"level":"info","message":"Creating new member:","name":"soubin kittiphanh","timestamp":"2026-05-08T10:29:01.202Z"}
+{"level":"error","message":"Error creating member: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"parameters":["soubin kittiphanh","111111","Volunteer","pending",true,1,"2026-05-08 17:29:01.204","2026-05-08 17:29:01.204"],"sql":"INSERT INTO `member` (`id`,`name`,`password`,`member_class`,`status`,`isActive`,`inputter`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","syscall":"read"},"parameters":["soubin kittiphanh","111111","Volunteer","pending",true,1,"2026-05-08 17:29:01.204","2026-05-08 17:29:01.204"],"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"parameters":["soubin kittiphanh","111111","Volunteer","pending",true,1,"2026-05-08 17:29:01.204","2026-05-08 17:29:01.204"],"sql":"INSERT INTO `member` (`id`,`name`,`password`,`member_class`,`status`,`isActive`,`inputter`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","syscall":"read"},"sql":"INSERT INTO `member` (`id`,`name`,`password`,`member_class`,`status`,`isActive`,`inputter`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.insert (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)\n    at async model.save (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:2490:35)\n    at async Function.create (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1362:12)\n    at async createMember (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:178:31)","timestamp":"2026-05-08T10:29:26.845Z"}
+{"level":"info","message":"Creating new member:","name":"soubin kittiphanh","timestamp":"2026-05-08T10:29:34.473Z"}
+{"level":"info","message":"Creating new member:","name":"soubin kittiphanh","timestamp":"2026-05-08T10:29:45.933Z"}
+{"level":"info","message":"Creating new member:","name":"some so","timestamp":"2026-05-08T10:31:36.680Z"}
+{"level":"info","message":"Creating new member:","name":"some so","timestamp":"2026-05-08T10:31:49.847Z"}
+{"level":"info","message":"Creating new member:","name":"some so","timestamp":"2026-05-08T10:31:52.817Z"}
+{"level":"info","message":"Creating new member:","name":"chantala","timestamp":"2026-05-08T10:32:25.235Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T10:35:49.375Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T10:35:49.379Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T10:35:49.380Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T10:35:49.380Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T10:35:49.382Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T10:35:49.788Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T10:35:50.193Z"}
+{"level":"error","message":"Error syncing database: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1001ms"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1001ms"},"stack":"SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)","timestamp":"2026-05-08T10:35:51.448Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T10:36:05.742Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T10:36:05.746Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T10:36:05.748Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T10:36:05.748Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T10:36:05.750Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T10:36:06.148Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T10:36:06.501Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T10:36:11.671Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T14:21:52.753Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T14:21:52.757Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T14:21:52.758Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T14:21:52.759Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T14:21:52.761Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T14:21:53.150Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T14:21:53.590Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T14:21:56.385Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T14:22:11.503Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T14:22:11.507Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T14:22:11.509Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T14:22:11.509Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T14:22:11.511Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T14:22:11.897Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T14:22:12.257Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T14:22:14.387Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T14:22:18.572Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T14:22:18.578Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T14:22:18.580Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T14:22:18.580Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T14:22:18.583Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T14:22:18.983Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T14:22:19.332Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T14:22:21.873Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:08:31.978Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:08:52.867Z"}
+{"level":"error","message":"Error fetching event photos: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:15:20.928Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:21:45.947Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:29:28.032Z"}
+{"level":"error","message":"Error in social login: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"parameters":{},"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.select (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Function.findAll (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1140:21)\n    at async Function.findOne (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1240:12)\n    at async socialLogin (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:352:26)","timestamp":"2026-05-08T15:30:14.562Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:30:20.708Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:30:58.737Z"}
+{"level":"info","message":"New social member created: Baatui","timestamp":"2026-05-08T15:30:58.852Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:32:52.915Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T15:42:35.332Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T15:42:35.336Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T15:42:35.337Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T15:42:35.337Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T15:42:35.339Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T15:42:35.785Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T15:42:36.183Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T15:42:38.869Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:45:02.027Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:45:30.618Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:45:34.539Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:45:34.628Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:08.945Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:09.033Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:09.844Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:09.906Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:12.154Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:12.213Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:14.714Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:14.789Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:18.621Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:18.685Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:19.074Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:46:19.146Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T15:48:40.927Z"}
+{"level":"error","message":"Error registering for event: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:48:59.553Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T15:49:33.306Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:51:19.785Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T15:59:07.802Z"}
+{"level":"error","message":"Error in social login: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"parameters":{},"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.select (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Function.findAll (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1140:21)\n    at async Function.findOne (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1240:12)\n    at async socialLogin (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:352:26)","timestamp":"2026-05-08T15:59:25.966Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T16:00:40.575Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T16:01:36.048Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T16:01:36.123Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=","timestamp":"2026-05-08T16:01:41.061Z"}
+{"level":"info","message":"User/Member registered for event ","timestamp":"2026-05-08T16:01:41.129Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T16:02:24.253Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T16:02:24.337Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T16:08:34.762Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T16:08:41.043Z"}
+{"level":"error","message":"Error in social login: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"parameters":{},"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.select (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Function.findAll (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1140:21)\n    at async Function.findOne (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1240:12)\n    at async socialLogin (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:352:26)","timestamp":"2026-05-08T16:08:59.525Z"}
+{"level":"error","message":"Error in social login: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"parameters":{},"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `member_class`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`socialId` = 'ihZ2XPTl2uS3d8vxZXSmO1y6hXD3' AND `member`.`socialProvider` = 'google' AND `member`.`isActive` = true LIMIT 1;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.select (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Function.findAll (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1140:21)\n    at async Function.findOne (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1240:12)\n    at async socialLogin (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:352:26)","timestamp":"2026-05-08T16:09:02.725Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T16:09:07.125Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T16:33:50.148Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T16:33:50.152Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T16:33:50.153Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T16:33:50.154Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T16:33:50.156Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T16:33:50.599Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T16:33:51.058Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T16:33:54.192Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T16:34:21.749Z"}
+{"level":"info","message":"Registering: userId=null, memberId=7, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T16:34:44.350Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-08T16:34:44.431Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T16:39:24.534Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T16:39:24.538Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T16:39:24.539Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T16:39:24.539Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T16:39:24.541Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T16:39:24.936Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T16:39:25.349Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T16:39:27.868Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T16:39:32.694Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T16:39:32.698Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T16:39:32.699Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T16:39:32.700Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T16:39:32.702Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T16:39:33.067Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T16:39:33.431Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-08T16:39:35.953Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-08T16:39:41.792Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-08T16:39:41.796Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-08T16:39:41.797Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-08T16:39:41.798Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-08T16:39:41.800Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-08T16:39:42.227Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-08T16:39:42.570Z"}
+{"level":"error","message":"Error syncing database: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1003ms"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1003ms"},"stack":"SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)","timestamp":"2026-05-08T16:39:43.694Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-08T16:41:04.657Z"}
+{"level":"error","message":"Error registering for event: Error: You have already registered for this event.","timestamp":"2026-05-08T16:41:11.280Z"}
+{"level":"error","message":"Error registering for event: Error: You have already registered for this event.","timestamp":"2026-05-08T16:41:16.395Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-08T16:59:16.304Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T01:51:26.207Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T01:51:44.809Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T02:27:06.882Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T02:27:36.352Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T02:38:43.114Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T02:39:59.593Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T03:10:29.700Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T03:10:48.969Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:11:50.789Z"}
+{"level":"info","message":"New social member created: Canyou Seeme","timestamp":"2026-05-09T03:11:50.940Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:12:00.676Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:13:43.347Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-09T03:14:08.184Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:16:12.923Z"}
+{"level":"info","message":"Social login attempt: google - ທ ຕຸ້ຍ ລູກຊາຍກົກ","timestamp":"2026-05-09T03:16:29.937Z"}
+{"level":"info","message":"New social member created: ທ ຕຸ້ຍ ລູກຊາຍກົກ","timestamp":"2026-05-09T03:16:30.024Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-09T03:16:38.036Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:18:07.403Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T03:21:36.984Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T03:21:36.988Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T03:21:36.989Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T03:21:36.990Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T03:21:36.992Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T03:21:37.407Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T03:21:37.830Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T03:21:44.547Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T03:21:44.551Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T03:21:44.553Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T03:21:44.553Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T03:21:44.555Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T03:21:44.935Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T03:21:45.306Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T03:22:05.445Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:23:58.247Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-09T03:25:28.933Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-09T03:26:12.410Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:26:30.219Z"}
+{"level":"info","message":"Registering: userId=null, memberId=8, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T03:26:39.895Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T03:26:40.059Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-09T03:26:59.888Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:27:29.419Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:29:29.496Z"}
+{"level":"error","message":"Error registering for event: Error: You have already registered for this event.","timestamp":"2026-05-09T03:31:36.166Z"}
+{"level":"info","message":"Social login attempt: google - Baatui","timestamp":"2026-05-09T03:32:24.517Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:32:56.033Z"}
+{"level":"error","message":"Error registering for event: Error: You have already registered for this event.","timestamp":"2026-05-09T03:33:32.380Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T03:41:31.754Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T03:41:50.472Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-09T03:42:05.931Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T04:34:34.304Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T04:34:34.312Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T04:34:34.313Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T04:34:34.314Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T04:34:34.316Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T04:34:36.320Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T04:34:37.319Z"}
+{"level":"error","message":"Error syncing database: (conn=136, no: 1265, SQLState: 01000) Data truncated for column 'member_class' at row 1\nsql: ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond'; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"WARN_DATA_TRUNCATED","errno":1265,"fatal":false,"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","sqlState":"01000","text":"Data truncated for column 'member_class' at row 1"},"parameters":{},"parent":{"code":"WARN_DATA_TRUNCATED","errno":1265,"fatal":false,"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","sqlState":"01000","text":"Data truncated for column 'member_class' at row 1"},"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-09T04:34:44.268Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T04:34:46.058Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T04:34:46.062Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T04:34:46.064Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T04:34:46.064Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T04:34:46.066Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T04:34:46.463Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T04:34:46.859Z"}
+{"level":"error","message":"Error syncing database: (conn=139, no: 1265, SQLState: 01000) Data truncated for column 'member_class' at row 1\nsql: ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond'; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"WARN_DATA_TRUNCATED","errno":1265,"fatal":false,"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","sqlState":"01000","text":"Data truncated for column 'member_class' at row 1"},"parameters":{},"parent":{"code":"WARN_DATA_TRUNCATED","errno":1265,"fatal":false,"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","sqlState":"01000","text":"Data truncated for column 'member_class' at row 1"},"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-09T04:34:48.273Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T04:35:24.797Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T04:35:24.801Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T04:35:24.803Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T04:35:24.803Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T04:35:24.805Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T04:35:25.215Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T04:35:25.601Z"}
+{"level":"error","message":"Error syncing database: (conn=141, no: 1265, SQLState: 01000) Data truncated for column 'member_class' at row 1\nsql: ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond'; - parameters:[]","name":"SequelizeDatabaseError","original":{"code":"WARN_DATA_TRUNCATED","errno":1265,"fatal":false,"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","sqlState":"01000","text":"Data truncated for column 'member_class' at row 1"},"parameters":{},"parent":{"code":"WARN_DATA_TRUNCATED","errno":1265,"fatal":false,"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","sqlState":"01000","text":"Data truncated for column 'member_class' at row 1"},"sql":"ALTER TABLE `member` CHANGE `member_class` `member_class` ENUM('silver', 'gold', 'platinum', 'diamond') COMMENT 'Member class: silver, gold, platinum, diamond';","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:984:11)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-09T04:35:28.246Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T04:36:45.927Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T04:36:45.931Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T04:36:45.932Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T04:36:45.932Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T04:36:45.935Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T04:36:46.344Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T04:36:46.777Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T04:36:57.921Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T04:55:32.493Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T04:57:51.214Z"}
+{"level":"info","message":"Member login attempt: some so","timestamp":"2026-05-09T04:58:33.352Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T04:59:26.519Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:01:18.122Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:03:04.017Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T05:03:09.751Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:07:15.603Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T05:09:03.832Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1005ms","timestamp":"2026-05-09T05:09:08.034Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms","timestamp":"2026-05-09T05:09:46.685Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:10:08.131Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T05:10:13.043Z"}
+{"level":"error","message":"Error logging in member: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `profilePhoto`, `member_class`, `role`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`name` = 'chantala' AND `member`.`password` = '111111' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"parameters":{},"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `profilePhoto`, `member_class`, `role`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`name` = 'chantala' AND `member`.`password` = '111111' AND `member`.`isActive` = true LIMIT 1;","syscall":"read"},"sql":"SELECT `id`, `name`, `email`, `password`, `socialProvider`, `socialId`, `profilePhoto`, `member_class`, `role`, `status`, `isActive`, `inputter`, `update_user`, `created_at`, `updated_at` FROM `member` AS `member` WHERE `member`.`name` = 'chantala' AND `member`.`password` = '111111' AND `member`.`isActive` = true LIMIT 1;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.select (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Function.findAll (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1140:21)\n    at async Function.findOne (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1240:12)\n    at async login (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:304:28)","timestamp":"2026-05-09T05:15:51.176Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:17:40.404Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:18:26.908Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T05:18:30.521Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:23:25.586Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T05:23:29.289Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T05:24:17.537Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:33:57.146Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:33:57.152Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:33:57.154Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:33:57.155Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:33:57.157Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:33:57.961Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:33:58.623Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:34:02.880Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:34:02.884Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:34:02.886Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:34:02.886Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:34:02.888Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:34:03.325Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:34:04.036Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:34:07.020Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:35:02.712Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:35:02.763Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:35:02.786Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:35:02.791Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:35:02.810Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:35:03.298Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:35:03.801Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:35:06.713Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:35:23.054Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:35:23.058Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:35:23.059Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:35:23.060Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:35:23.062Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:35:23.521Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:35:23.959Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:35:26.688Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:35:32.654Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:35:32.670Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:35:32.674Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:35:32.675Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:35:32.682Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:35:33.222Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:35:33.871Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:35:37.153Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:35:44.990Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:35:44.995Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:35:44.996Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:35:44.997Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:35:44.999Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:35:45.464Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:35:45.965Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:35:49.858Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:36:47.864Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:36:47.869Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:36:47.871Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:36:47.871Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:36:47.873Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:36:48.334Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:36:48.790Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:36:51.621Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T05:36:53.916Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T05:36:53.936Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T05:36:53.938Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T05:36:53.939Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T05:36:53.944Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T05:36:54.420Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T05:36:54.785Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T05:36:57.527Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:37:48.325Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T05:37:51.521Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T05:42:08.428Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T05:42:13.102Z"}
+{"level":"info","message":"Cleaning event updated: ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T05:42:44.196Z"}
+{"level":"info","message":"Cleaning event updated: ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T05:43:51.851Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T06:49:01.638Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T06:49:35.708Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T06:49:39.845Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T06:53:21.418Z"}
+{"level":"error","message":"Error updating cleaning event: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T06:54:10.384Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T06:54:15.171Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T06:54:15.176Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T06:54:15.178Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T06:54:15.179Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T06:54:15.182Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T06:54:15.724Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T06:54:16.288Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T06:54:19.266Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T06:55:00.854Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T06:55:13.582Z"}
+{"level":"info","message":"Cleaning event updated: ff637f7c-bd84-4535-b80a-adc2f20ccd54","timestamp":"2026-05-09T06:58:20.496Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T07:01:15.035Z"}
+{"level":"info","message":"Cleaning event updated: ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T07:01:46.883Z"}
+{"level":"info","message":"Cleaning event updated: ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T07:03:02.975Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:04:14.900Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:04:14.906Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:04:14.907Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:04:14.907Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:04:14.909Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:04:15.668Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:04:16.724Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:04:18.995Z"}
+{"level":"info","message":"Registering: userId=null, memberId=6, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T07:05:26.337Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd55","timestamp":"2026-05-09T07:05:26.681Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: Error in results, duplicate field name `currentVolunteerCount`.\n(see option `checkDuplicate`)\nsql: SELECT `CleaningEvent`.`id`, `CleaningEvent`.`title`, `CleaningEvent`.`description`, `CleaningEvent`.`locationName`, `CleaningEvent`.`locationId`, `CleaningEvent`.`latitude`, `CleaningEvent`.`longitude`, `CleaningEvent`.`coordinates`, `CleaningEvent`.`startTime`, `CleaningEvent`.`endTime`, `CleaningEvent`.`status`, `CleaningEvent`.`beforePhotoUrl`, `CleaningEvent`.`afterPhotoUrl`, `CleaningEvent`.`estimatedTrashWeight`, `CleaningEvent`.`volunteerCount`, `CleaningEvent`.`currentVolunteerCount`, `CleaningEvent`.`category`, `CleaningEvent`.`createdAt`, `CleaningEvent`.`updateTimestamp`, (\n                            SELECT COUNT(*)\n                            FROM Attendance AS attendance\n                            WHERE\n                                attendance.CleaningEventId = CleaningEvent.id\n                        ) AS `currentVolunteerCount` FROM `CleaningEvent` AS `CleaningEvent` LEFT OUTER JOIN `Attendance` AS `Attendances` ON `CleaningEvent`.`id` = `Attendances`.`CleaningEventId` WHERE `CleaningEvent`.`status` IN ('upcoming', 'ongoing') ORDER BY `CleaningEvent`.`startTime` ASC; - parameters:[]","timestamp":"2026-05-09T07:05:27.044Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: Error in results, duplicate field name `currentVolunteerCount`.\n(see option `checkDuplicate`)\nsql: SELECT `CleaningEvent`.`id`, `CleaningEvent`.`title`, `CleaningEvent`.`description`, `CleaningEvent`.`locationName`, `CleaningEvent`.`locationId`, `CleaningEvent`.`latitude`, `CleaningEvent`.`longitude`, `CleaningEvent`.`coordinates`, `CleaningEvent`.`startTime`, `CleaningEvent`.`endTime`, `CleaningEvent`.`status`, `CleaningEvent`.`beforePhotoUrl`, `CleaningEvent`.`afterPhotoUrl`, `CleaningEvent`.`estimatedTrashWeight`, `CleaningEvent`.`volunteerCount`, `CleaningEvent`.`currentVolunteerCount`, `CleaningEvent`.`category`, `CleaningEvent`.`createdAt`, `CleaningEvent`.`updateTimestamp`, (\n                            SELECT COUNT(*)\n                            FROM Attendance AS attendance\n                            WHERE\n                                attendance.CleaningEventId = CleaningEvent.id\n                        ) AS `currentVolunteerCount` FROM `CleaningEvent` AS `CleaningEvent` LEFT OUTER JOIN `Attendance` AS `Attendances` ON `CleaningEvent`.`id` = `Attendances`.`CleaningEventId` WHERE `CleaningEvent`.`status` IN ('upcoming', 'ongoing') ORDER BY `CleaningEvent`.`startTime` ASC; - parameters:[]","timestamp":"2026-05-09T07:05:46.875Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T07:06:01.219Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: Error in results, duplicate field name `currentVolunteerCount`.\n(see option `checkDuplicate`)\nsql: SELECT `CleaningEvent`.`id`, `CleaningEvent`.`title`, `CleaningEvent`.`description`, `CleaningEvent`.`locationName`, `CleaningEvent`.`locationId`, `CleaningEvent`.`latitude`, `CleaningEvent`.`longitude`, `CleaningEvent`.`coordinates`, `CleaningEvent`.`startTime`, `CleaningEvent`.`endTime`, `CleaningEvent`.`status`, `CleaningEvent`.`beforePhotoUrl`, `CleaningEvent`.`afterPhotoUrl`, `CleaningEvent`.`estimatedTrashWeight`, `CleaningEvent`.`volunteerCount`, `CleaningEvent`.`currentVolunteerCount`, `CleaningEvent`.`category`, `CleaningEvent`.`createdAt`, `CleaningEvent`.`updateTimestamp`, (\n                            SELECT COUNT(*)\n                            FROM Attendance AS attendance\n                            WHERE\n                                attendance.CleaningEventId = CleaningEvent.id\n                        ) AS `currentVolunteerCount` FROM `CleaningEvent` AS `CleaningEvent` LEFT OUTER JOIN `Attendance` AS `Attendances` ON `CleaningEvent`.`id` = `Attendances`.`CleaningEventId` WHERE `CleaningEvent`.`status` IN ('upcoming', 'ongoing') ORDER BY `CleaningEvent`.`startTime` ASC; - parameters:[]","timestamp":"2026-05-09T07:06:01.942Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: Error in results, duplicate field name `currentVolunteerCount`.\n(see option `checkDuplicate`)\nsql: SELECT `CleaningEvent`.`id`, `CleaningEvent`.`title`, `CleaningEvent`.`description`, `CleaningEvent`.`locationName`, `CleaningEvent`.`locationId`, `CleaningEvent`.`latitude`, `CleaningEvent`.`longitude`, `CleaningEvent`.`coordinates`, `CleaningEvent`.`startTime`, `CleaningEvent`.`endTime`, `CleaningEvent`.`status`, `CleaningEvent`.`beforePhotoUrl`, `CleaningEvent`.`afterPhotoUrl`, `CleaningEvent`.`estimatedTrashWeight`, `CleaningEvent`.`volunteerCount`, `CleaningEvent`.`currentVolunteerCount`, `CleaningEvent`.`category`, `CleaningEvent`.`createdAt`, `CleaningEvent`.`updateTimestamp`, (\n                            SELECT COUNT(*)\n                            FROM Attendance AS attendance\n                            WHERE\n                                attendance.CleaningEventId = CleaningEvent.id\n                        ) AS `currentVolunteerCount` FROM `CleaningEvent` AS `CleaningEvent` LEFT OUTER JOIN `Attendance` AS `Attendances` ON `CleaningEvent`.`id` = `Attendances`.`CleaningEventId` WHERE `CleaningEvent`.`status` IN ('upcoming', 'ongoing') ORDER BY `CleaningEvent`.`startTime` ASC; - parameters:[]","timestamp":"2026-05-09T07:06:20.183Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: Error in results, duplicate field name `currentVolunteerCount`.\n(see option `checkDuplicate`)\nsql: SELECT `CleaningEvent`.`id`, `CleaningEvent`.`title`, `CleaningEvent`.`description`, `CleaningEvent`.`locationName`, `CleaningEvent`.`locationId`, `CleaningEvent`.`latitude`, `CleaningEvent`.`longitude`, `CleaningEvent`.`coordinates`, `CleaningEvent`.`startTime`, `CleaningEvent`.`endTime`, `CleaningEvent`.`status`, `CleaningEvent`.`beforePhotoUrl`, `CleaningEvent`.`afterPhotoUrl`, `CleaningEvent`.`estimatedTrashWeight`, `CleaningEvent`.`volunteerCount`, `CleaningEvent`.`currentVolunteerCount`, `CleaningEvent`.`category`, `CleaningEvent`.`createdAt`, `CleaningEvent`.`updateTimestamp`, (\n                            SELECT COUNT(*)\n                            FROM Attendance AS attendance\n                            WHERE\n                                attendance.CleaningEventId = CleaningEvent.id\n                        ) AS `currentVolunteerCount` FROM `CleaningEvent` AS `CleaningEvent` LEFT OUTER JOIN `Attendance` AS `Attendances` ON `CleaningEvent`.`id` = `Attendances`.`CleaningEventId` WHERE `CleaningEvent`.`status` IN ('upcoming', 'ongoing') ORDER BY `CleaningEvent`.`startTime` ASC; - parameters:[]","timestamp":"2026-05-09T07:06:21.308Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: Error in results, duplicate field name `currentVolunteerCount`.\n(see option `checkDuplicate`)\nsql: SELECT `CleaningEvent`.`id`, `CleaningEvent`.`title`, `CleaningEvent`.`description`, `CleaningEvent`.`locationName`, `CleaningEvent`.`locationId`, `CleaningEvent`.`latitude`, `CleaningEvent`.`longitude`, `CleaningEvent`.`coordinates`, `CleaningEvent`.`startTime`, `CleaningEvent`.`endTime`, `CleaningEvent`.`status`, `CleaningEvent`.`beforePhotoUrl`, `CleaningEvent`.`afterPhotoUrl`, `CleaningEvent`.`estimatedTrashWeight`, `CleaningEvent`.`volunteerCount`, `CleaningEvent`.`currentVolunteerCount`, `CleaningEvent`.`category`, `CleaningEvent`.`createdAt`, `CleaningEvent`.`updateTimestamp`, (\n                            SELECT COUNT(*)\n                            FROM Attendance AS attendance\n                            WHERE\n                                attendance.CleaningEventId = CleaningEvent.id\n                        ) AS `currentVolunteerCount` FROM `CleaningEvent` AS `CleaningEvent` LEFT OUTER JOIN `Attendance` AS `Attendances` ON `CleaningEvent`.`id` = `Attendances`.`CleaningEventId` WHERE `CleaningEvent`.`status` IN ('upcoming', 'ongoing') ORDER BY `CleaningEvent`.`startTime` ASC; - parameters:[]","timestamp":"2026-05-09T07:06:32.002Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:06:59.268Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:06:59.273Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:06:59.275Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:06:59.275Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:06:59.278Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:06:59.695Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:07:00.118Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:07:02.739Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:07:05.555Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:07:05.559Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:07:05.560Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:07:05.560Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:07:05.562Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:07:05.939Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:07:06.295Z"}
+{"level":"error","message":"Error syncing database: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1004ms"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"sql":null,"sqlState":"08S01","text":"Connection timeout: failed to create socket after 1004ms"},"stack":"SequelizeConnectionError: (conn=-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n    at async ConnectionManager.getConnection (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:305:26\n    at async MySQLQueryInterface.tableExists (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:102:17)\n    at async Function.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:939:21)\n    at async Sequelize.sync (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:377:9)","timestamp":"2026-05-09T07:07:07.309Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T07:16:33.099Z"}
+{"level":"error","message":"Error getting pending members: read ETIMEDOUT","name":"SequelizeDatabaseError","original":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `member_class`, `role`, `status`, `created_at` FROM `member` AS `member` WHERE `member`.`status` = 'pending' AND `member`.`isActive` = true ORDER BY `member`.`created_at` DESC;","syscall":"read"},"parameters":{},"parent":{"code":"ETIMEDOUT","errno":-60,"fatal":true,"sql":"SELECT `id`, `name`, `member_class`, `role`, `status`, `created_at` FROM `member` AS `member` WHERE `member`.`status` = 'pending' AND `member`.`isActive` = true ORDER BY `member`.`created_at` DESC;","syscall":"read"},"sql":"SELECT `id`, `name`, `member_class`, `role`, `status`, `created_at` FROM `member` AS `member` WHERE `member`.`status` = 'pending' AND `member`.`isActive` = true ORDER BY `member`.`created_at` DESC;","stack":"Error\n    at Query.run (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/mariadb/query.js:53:25)\n    at /Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/sequelize.js:315:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async MySQLQueryInterface.select (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/dialects/abstract/query-interface.js:407:12)\n    at async Function.findAll (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/node_modules/sequelize/lib/model.js:1140:21)\n    at async getPendingMembers (/Users/soubinkittiphanh/Desktop/Pro/dcommerce/dc_cleaning_api/src/cleaningGroup/member/controller.js:35:29)","timestamp":"2026-05-09T07:16:51.217Z"}
+{"level":"info","message":"Cleaning event updated: ff637f7c-bd84-4535-b80a-adc2f20ccd54","timestamp":"2026-05-09T07:17:37.330Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T07:18:20.605Z"}
+{"level":"info","message":"Registering: userId=null, memberId=6, eventId=ff637f7c-bd84-4535-b80a-adc2f20ccd54","timestamp":"2026-05-09T07:20:43.906Z"}
+{"level":"info","message":"User/Member registered for event ff637f7c-bd84-4535-b80a-adc2f20ccd54","timestamp":"2026-05-09T07:20:43.987Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:25:54.118Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:25:54.122Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:25:54.123Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:25:54.124Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:25:54.126Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:25:54.540Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:25:54.937Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:25:57.663Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:26:01.077Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:26:01.082Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:26:01.083Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:26:01.083Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:26:01.085Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:26:01.458Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:26:01.805Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:26:04.576Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:26:10.357Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:26:10.361Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:26:10.362Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:26:10.363Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:26:10.365Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:26:10.734Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:26:11.091Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:26:13.222Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:26:23.256Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:26:23.260Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:26:23.261Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:26:23.261Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:26:23.263Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:26:23.706Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:26:24.075Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:26:26.849Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:26:37.971Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:26:37.975Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:26:37.976Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:26:37.977Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:26:37.979Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:26:38.363Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:26:38.724Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:26:41.431Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-09T07:26:55.795Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-09T07:26:55.799Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-09T07:26:55.800Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-09T07:26:55.801Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-09T07:26:55.803Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-09T07:26:56.223Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-09T07:26:56.668Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-09T07:26:59.740Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T07:36:00.260Z"}
+{"level":"error","message":"Error reporting hotspot: SequelizeForeignKeyConstraintError: (conn=333, no: 1452, SQLState: 23000) Cannot add or update a child row: a foreign key constraint fails (`dcommerce_demo`.`Hotspot`, CONSTRAINT `Hotspot_ibfk_4` FOREIGN KEY (`reporterId`) REFERENCES `member` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)\nsql: INSERT INTO `Hotspot` (`id`,`description`,`locationName`,`locationId`,`latitude`,`longitude`,`photoUrl`,`status`,`reporterId`,`createdAt`,`updateTimestamp`) VALUES (?,?,?,?,?,?,?,?,?,?,?); - parameters:['cce85682-9ffc-4f06-a012-16b63e676cf6','plastbottle',...]","timestamp":"2026-05-09T07:36:55.221Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T07:41:40.485Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-09T07:41:40.798Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-09T07:42:47.106Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-09T07:42:50.270Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read EADDRNOTAVAIL","timestamp":"2026-05-10T03:21:18.192Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-10T03:43:45.887Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-10T03:52:55.442Z"}
+{"level":"info","message":"Getting all pending members","timestamp":"2026-05-10T03:53:13.571Z"}
+{"level":"error","message":"Error fetching impact stats: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-10T03:53:14.199Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-10T04:12:01.315Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-10T04:17:21.643Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:23:18.300Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:23:18.304Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:23:18.305Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:23:18.305Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:23:18.307Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:23:18.715Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:23:19.129Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:23:24.017Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:23:39.718Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:23:39.723Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:23:39.724Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:23:39.724Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:23:39.726Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:23:40.107Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:23:40.468Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:23:43.893Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:23:51.411Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:23:51.415Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:23:51.417Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:23:51.417Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:23:51.419Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:23:51.790Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:23:52.134Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:23:55.637Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:24:03.941Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:24:03.946Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:24:03.947Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:24:03.948Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:24:03.950Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:24:04.349Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:24:04.721Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:24:08.755Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:28:50.481Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:28:50.485Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:28:50.486Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:28:50.487Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:28:50.488Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:28:50.974Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:28:51.361Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:28:54.687Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-10T04:37:57.690Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-10T04:41:08.132Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:43:01.014Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:43:01.018Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:43:01.019Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:43:01.020Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:43:01.022Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:43:01.439Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:43:01.847Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:43:05.519Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:43:16.396Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:43:16.401Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:43:16.402Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:43:16.403Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:43:16.405Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:43:16.802Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:43:17.220Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:43:20.586Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:43:24.437Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:43:24.441Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:43:24.442Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:43:24.443Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:43:24.444Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:43:24.873Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:43:25.316Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:43:28.701Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:43:35.305Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:43:35.310Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:43:35.311Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:43:35.312Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:43:35.314Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:43:35.696Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:43:36.075Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-10T04:43:41.053Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-10T04:43:41.057Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-10T04:43:41.058Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-10T04:43:41.058Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-10T04:43:41.060Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-10T04:43:41.431Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-10T04:43:41.817Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-10T04:43:46.223Z"}
+{"level":"error","message":"Error fetching upcoming events: SequelizeDatabaseError: read ETIMEDOUT","timestamp":"2026-05-10T04:48:41.307Z"}
+{"level":"info","message":"Member login attempt: some so","timestamp":"2026-05-10T04:49:21.125Z"}
+{"level":"info","message":"Member login attempt: chantala","timestamp":"2026-05-10T04:49:29.266Z"}
+{"level":"info","message":"Social login attempt: facebook - Canyou Seeme","timestamp":"2026-05-10T04:54:37.712Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-11T04:43:59.142Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-11T04:43:59.146Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-11T04:43:59.147Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-11T04:43:59.148Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-11T04:43:59.150Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-11T04:43:59.546Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-11T04:43:59.969Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-11T04:44:10.660Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-11T04:50:29.189Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-11T04:50:29.193Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-11T04:50:29.194Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-11T04:50:29.194Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-11T04:50:29.196Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-11T04:50:29.595Z"}
+{"level":"info","message":"Cleaning API is up on port 4005","timestamp":"2026-05-11T04:50:30.004Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-11T04:50:37.834Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-11T04:51:45.966Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-11T04:51:45.971Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-11T04:51:45.972Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-11T04:51:45.972Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-11T04:51:45.974Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-11T04:51:46.371Z"}
+{"level":"info","message":"Cleaning API is up on http://192.168.100.113:4005","timestamp":"2026-05-11T04:51:46.776Z"}
+{"level":"info","message":"Local access: http://localhost:4005","timestamp":"2026-05-11T04:51:46.777Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-11T04:51:55.294Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-11T04:52:20.787Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-11T04:52:20.791Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-11T04:52:20.792Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-11T04:52:20.793Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-11T04:52:20.795Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-11T04:52:21.194Z"}
+{"level":"info","message":"Cleaning API is up on http://192.168.100.113:4005","timestamp":"2026-05-11T04:52:21.572Z"}
+{"level":"info","message":"Local access: http://localhost:4005","timestamp":"2026-05-11T04:52:21.573Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-11T04:52:29.468Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-11T05:14:39.533Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-11T05:14:39.537Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-11T05:14:39.539Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-11T05:14:39.539Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-11T05:14:39.541Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-11T05:14:39.931Z"}
+{"level":"info","message":"Cleaning API is up on http://192.168.100.113:4005","timestamp":"2026-05-11T05:14:40.342Z"}
+{"level":"info","message":"Local access: http://localhost:4005","timestamp":"2026-05-11T05:14:40.343Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-11T05:14:53.002Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2026-05-11T05:44:03.940Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2026-05-11T05:44:03.944Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2026-05-11T05:44:03.945Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2026-05-11T05:44:03.945Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2026-05-11T05:44:03.947Z","username":"johndoe"}
+{"level":"warn","message":"ENVIRONMENT DB undefined","timestamp":"2026-05-11T05:44:04.335Z"}
+{"level":"info","message":"Cleaning API is up on http://192.168.100.113:4005","timestamp":"2026-05-11T05:44:04.757Z"}
+{"level":"info","message":"Local access: http://localhost:4005","timestamp":"2026-05-11T05:44:04.758Z"}
+{"level":"info","message":"Cleaning Database synchronized","timestamp":"2026-05-11T05:44:16.036Z"}
