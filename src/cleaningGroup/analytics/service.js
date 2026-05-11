@@ -5,12 +5,17 @@ const getCityWideImpact = async () => {
     try {
         const results = await db.CleaningEvent.findOne({
             attributes: [
-                [db.sequelize.fn('SUM', db.sequelize.col('estimatedTrashWeight')), 'totalTrashWeight'],
+                [db.sequelize.fn('SUM', db.sequelize.col('totalKilos')), 'totalTrashWeight'],
+                [db.sequelize.fn('SUM', db.sequelize.col('totalBags')), 'totalBags'],
                 [db.sequelize.fn('SUM', db.sequelize.col('volunteerCount')), 'totalVolunteers'],
             ],
             where: {
                 status: 'completed'
             }
+        });
+
+        const totalCompletedEvents = await db.CleaningEvent.count({
+            where: { status: 'completed' }
         });
 
         // Sum participation hours from verified attendance
@@ -19,8 +24,10 @@ const getCityWideImpact = async () => {
         });
 
         return {
-            totalTrashWeight: parseFloat(results.getDataValue('totalTrashWeight') || 0),
+            totalTrashWeight: parseFloat(results.getDataValue('totalTrashWeight') || 0).toFixed(2),
+            totalBags: parseInt(results.getDataValue('totalBags') || 0),
             totalVolunteers: parseInt(results.getDataValue('totalVolunteers') || 0),
+            totalCompletedEvents,
             totalVolunteerHours: Math.round((attendanceHours || 0) / 60 * 10) / 10 // Convert minutes to hours
         };
     } catch (error) {
