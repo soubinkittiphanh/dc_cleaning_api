@@ -3,10 +3,19 @@ const logger = require('../../api/logger');
 
 const createEvent = async (eventData) => {
     try {
-        const { photos, ...rest } = eventData;
+        const { photos, hotspotId, ...rest } = eventData;
         if (!rest.id) delete rest.id;
         const event = await db.CleaningEvent.create(rest);
         
+        // If this event was created from a hotspot, update the hotspot status
+        if (hotspotId) {
+            await db.Hotspot.update(
+                { status: 'event_created' },
+                { where: { id: hotspotId } }
+            );
+            logger.info(`Hotspot ${hotspotId} marked as event_created`);
+        }
+
         if (photos && Array.isArray(photos)) {
             const photoRecords = photos.map(url => ({
                 CleaningEventId: event.id,
@@ -31,14 +40,23 @@ const getImpactStats = async () => {
         });
 
         const totalCompletedEvents = await db.CleaningEvent.count({
-            where: {
-                status: 'completed'
-            }
+            where: { status: 'completed' }
+        });
+
+        const totalImpact = await db.CleaningEvent.findOne({
+            where: { status: 'completed' },
+            attributes: [
+                [db.Sequelize.fn('SUM', db.Sequelize.col('totalBags')), 'totalBags'],
+                [db.Sequelize.fn('SUM', db.Sequelize.col('totalKilos')), 'totalTrashWeight']
+            ],
+            raw: true
         });
 
         return {
             totalVolunteers,
-            totalCompletedEvents
+            totalCompletedEvents,
+            totalBags: parseInt(totalImpact.totalBags || 0),
+            totalTrashWeight: parseFloat(totalImpact.totalTrashWeight || 0).toFixed(2)
         };
     } catch (error) {
         logger.error(`Error fetching impact stats: ${error}`);
