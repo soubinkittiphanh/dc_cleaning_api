@@ -62,6 +62,17 @@ const eventController = {
         } catch (error) {
             return res.status(400).json({ message: error.message });
         }
+    },
+
+    async closeEvent(req, res) {
+        try {
+            const { id } = req.params;
+            const { totalBags, totalKilos } = req.body;
+            const result = await service.closeEvent(id, { totalBags, totalKilos });
+            return res.status(200).json(result);
+        } catch (error) {
+            return res.status(400).json({ message: error.message });
+        }
     }
 };
 

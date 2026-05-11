@@ -74,6 +74,18 @@ module.exports = (sequelize, DataTypes) => {
             defaultValue: 0,
             allowNull: false
         },
+        totalBags: {
+            type: DataTypes.INTEGER,
+            defaultValue: 0,
+            allowNull: false,
+            comment: 'Total bags of trash collected'
+        },
+        totalKilos: {
+            type: DataTypes.DECIMAL(10, 2),
+            defaultValue: 0.00,
+            allowNull: false,
+            comment: 'Total weight of trash collected in kilograms'
+        },
         category: {
             type: DataTypes.STRING,
             allowNull: true

@@ -135,11 +135,39 @@ const deleteEvent = async (id) => {
     }
 };
 
+const closeEvent = async (id, impactData) => {
+    try {
+        const { totalBags, totalKilos } = impactData;
+        
+        // Count verified volunteers for this event
+        const verifiedCount = await db.Attendance.count({
+            where: { 
+                CleaningEventId: id,
+                status: 'verified' // Only count those who were actually scanned
+            }
+        });
+
+        const result = await db.CleaningEvent.update({
+            status: 'completed',
+            totalBags: totalBags || 0,
+            totalKilos: totalKilos || 0,
+            volunteerCount: verifiedCount // Final count
+        }, { where: { id } });
+
+        logger.info(`Cleaning event closed: ${id}. Volunteers: ${verifiedCount}, Bags: ${totalBags}`);
+        return { success: true, verifiedCount };
+    } catch (error) {
+        logger.error(`Error closing cleaning event: ${error}`);
+        throw error;
+    }
+};
+
 module.exports = {
     createEvent,
     getImpactStats,
     getUpcomingEvents,
     getEventPhotos,
     updateEvent,
-    deleteEvent
+    deleteEvent,
+    closeEvent
 };

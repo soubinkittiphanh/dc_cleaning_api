@@ -8,6 +8,7 @@ router.get('/upcoming', controller.getUpcomingEvents);
 router.get('/impact-stats', controller.getImpactStats);
 router.get('/:id/photos', controller.getEventPhotos);
 router.put('/:id', controller.updateEvent);
+router.put('/close/:id', controller.closeEvent);
 router.delete('/:id', controller.deleteEvent);
 
 module.exports = router;
