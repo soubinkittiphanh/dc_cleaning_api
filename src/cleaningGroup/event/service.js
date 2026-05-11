@@ -143,7 +143,7 @@ const closeEvent = async (id, impactData) => {
         const verifiedCount = await db.Attendance.count({
             where: { 
                 CleaningEventId: id,
-                status: 'verified' // Only count those who were actually scanned
+                isVerified: true // Only count those who were actually scanned
             }
         });
 
