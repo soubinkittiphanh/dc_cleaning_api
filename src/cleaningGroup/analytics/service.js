@@ -3,19 +3,30 @@ const { Op } = require('sequelize');
 
 const getCityWideImpact = async () => {
     try {
+        // Count unique participants (distinct users and members across all verified attendances)
+        const totalVolunteers = await db.Attendance.count({
+            distinct: true,
+            col: 'memberId', // This is a bit tricky since we have userId OR memberId
+            where: { isVerified: true }
+        });
+        
+        // Actually, let's just sum the participations for "Impact" as it represents total effort
+        const totalParticipations = await db.CleaningEvent.sum('volunteerCount', {
+            where: { status: 'completed' }
+        }) || 0;
+
+        const totalCompletedEvents = await db.CleaningEvent.count({
+            where: { status: 'completed' }
+        });
+
         const results = await db.CleaningEvent.findOne({
             attributes: [
                 [db.sequelize.fn('SUM', db.sequelize.col('totalKilos')), 'totalTrashWeight'],
                 [db.sequelize.fn('SUM', db.sequelize.col('totalBags')), 'totalBags'],
-                [db.sequelize.fn('SUM', db.sequelize.col('volunteerCount')), 'totalVolunteers'],
             ],
             where: {
                 status: 'completed'
             }
-        });
-
-        const totalCompletedEvents = await db.CleaningEvent.count({
-            where: { status: 'completed' }
         });
 
         // Sum participation hours from verified attendance
@@ -26,7 +37,7 @@ const getCityWideImpact = async () => {
         return {
             totalTrashWeight: parseFloat(results.getDataValue('totalTrashWeight') || 0).toFixed(2),
             totalBags: parseInt(results.getDataValue('totalBags') || 0),
-            totalVolunteers: parseInt(results.getDataValue('totalVolunteers') || 0),
+            totalVolunteers: parseInt(totalParticipations),
             totalCompletedEvents,
             totalVolunteerHours: Math.round((attendanceHours || 0) / 60 * 10) / 10 // Convert minutes to hours
         };

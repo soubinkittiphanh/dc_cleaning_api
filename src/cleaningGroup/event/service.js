@@ -159,12 +159,29 @@ const closeEvent = async (id, impactData) => {
         const { totalBags, totalKilos } = impactData;
         
         // Count verified volunteers for this event
-        const verifiedCount = await db.Attendance.count({
+        const attendances = await db.Attendance.findAll({
             where: { 
                 CleaningEventId: id,
-                isVerified: true // Only count those who were actually scanned
+                isVerified: true 
             }
         });
+
+        const verifiedCount = attendances.length;
+
+        // Finalize duration for each verified volunteer
+        const now = new Date();
+        for (const attendance of attendances) {
+            if (attendance.checkInTime) {
+                const checkInTime = new Date(attendance.checkInTime);
+                // Calculate duration in minutes (from check-in until now/close time)
+                const durationMinutes = Math.floor((now - checkInTime) / (1000 * 60));
+                
+                // Only update if it's longer than existing (to avoid overwriting if they already checked out)
+                if (durationMinutes > attendance.participationDuration) {
+                    await attendance.update({ participationDuration: durationMinutes });
+                }
+            }
+        }
 
         const result = await db.CleaningEvent.update({
             status: 'completed',
