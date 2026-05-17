@@ -5,6 +5,10 @@ const createEvent = async (eventData) => {
     try {
         const { photos, hotspotId, ...rest } = eventData;
         if (!rest.id) delete rest.id;
+        
+        if (rest.totalBags == null) rest.totalBags = 0;
+        if (rest.totalKilos == null) rest.totalKilos = 0;
+
         const event = await db.CleaningEvent.create(rest);
         
         // If this event was created from a hotspot, update the hotspot status
@@ -129,6 +133,10 @@ const getEventPhotos = async (eventId) => {
 const updateEvent = async (id, eventData) => {
     try {
         const { photos, id: bodyId, updateTimestamp, ...rest } = eventData;
+        
+        if (rest.totalBags == null) delete rest.totalBags;
+        if (rest.totalKilos == null) delete rest.totalKilos;
+
         await db.CleaningEvent.update(rest, { where: { id } });
         
         if (photos && Array.isArray(photos)) {
